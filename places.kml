@@ -37,6 +37,7 @@
           <east>55.537154992117</east>
           <south>25.0755676141046</south>
           <north>25.0779448301046</north>
+       <rotation>0</rotation>
       </LatLonBox>
     </GroundOverlay>
   </Folder>
