@@ -21,6 +21,43 @@
      <coordinates>55.537154992117,25.0755676141046,0</coordinates>
    </Point>
  </Placemark>
+<gx:Tour>
+    <name>Play me!</name>
 
+    <gx:Playlist>
+
+      <gx:FlyTo>
+        <gx:flyToMode>bounce</gx:flyToMode>
+        <gx:duration>3</gx:duration>
+        <Camera>
+          <longitude>55.537154992117</longitude>
+          <latitude>25.0755676141046</latitude>
+          <altitude>9700</altitude>
+          <heading>-6.333</heading>
+          <tilt>33.5</tilt>
+        </Camera>
+      </gx:FlyTo>
+
+      <gx:AnimatedUpdate>
+        <gx:duration>5</gx:duration>
+        <Update>
+          <targetHref></targetHref>
+          <Change>
+            <IconStyle targetId="mystyle">
+              <scale>10.0</scale>
+            </IconStyle>
+          </Change>
+        </Update>
+      </gx:AnimatedUpdate>
+
+      <gx:Wait>
+        <gx:duration>5</gx:duration>
+      </gx:Wait>
+
+    </gx:Playlist>
+  </gx:Tour>
+
+</Document>
+</kml>
  </Document>
  </kml>
