@@ -31,8 +31,6 @@
      <coordinates>55.536106248392116,25.07770669071272,0</coordinates>
    </Point>
  </Placemark>
- </Folder>
- <Folder>
   <Placemark id="pin2">
    <name>Pin on a CH01+000</name>
    <styleUrl>#pushpin2</styleUrl>
