@@ -22,6 +22,23 @@
    </Point>
  </Placemark>
  </Folder>
-
+<Folder>
+    <name>Ground Overlays</name>
+    <description>Examples of ground overlays</description>
+    <GroundOverlay>
+      <name>Large-scale overlay on terrain</name>
+      <description>Overlay shows Mount Etna erupting 
+          on July 13th, 2001.</description>
+      <Icon>
+        <href>https://pms.claimstudios.com/kml/a.png</href>
+      </Icon>
+      <LatLonBox>
+        <west>55.534544795637</west>
+          <east>55.537154992117</east>
+          <south>25.0755676141046</south>
+          <north>25.0779448301046</north>
+      </LatLonBox>
+    </GroundOverlay>
+  </Folder>
 </Document>
 </kml>
