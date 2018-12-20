@@ -24,14 +24,14 @@
    <name>Pin on a CH00+000</name>
    <styleUrl>#pushpin</styleUrl>
    <Point>
-     <coordinates>55.536106248392116,25.07770669071272,0</coordinates>
+     <coordinates>25.07770669071272,55.536106248392116,0</coordinates>
    </Point>
  </Placemark>
   <Placemark id="pin2">
    <name>Pin on a CH01+000</name>
    <styleUrl>#pushpin2</styleUrl>
    <Point>
-     <coordinates>55.5349502163067,25.076263638022322,0</coordinates>
+     <coordinates>25.076263638022322,55.5349502163067,0</coordinates>
    </Point>
  </Placemark>
  </Folder>
