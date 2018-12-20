@@ -33,11 +33,11 @@
         <href>https://pms.claimstudios.com/kml/a.png</href>
       </Icon>
       <LatLonBox>
-        <west>55.534544795637</west>
-          <east>55.537154992117</east>
-          <south>25.0755676141046</south>
           <north>25.0779448301046</north>
-       <rotation>0</rotation>
+          <south>25.0755676141046</south>
+          <east>55.537154992117</east>
+          <west>55.534544795637</west>
+          <rotation>0</rotation>
       </LatLonBox>
     </GroundOverlay>
   </Folder>
