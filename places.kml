@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2">
 
-    <name>Ground Overlays</name>
+    <name>gokgogkogkGround Overlays</name>
     <description>Examples of ground overlays</description>
     <GroundOverlay>
       <name>Large-scale overlay on terrain</name>
