@@ -21,7 +21,7 @@
   <Folder>
    <GroundOverlay>
      <Icon>
-       <href><![CDATA[https://pms.claimstudios.com/kml/a.png]]></href>
+       <href>https://pms.claimstudios.com/kml/a.png</href>
      </Icon>
      <LatLonBox>
        <west>55.534544795637</west>
