@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<kml xmlns="http://www.opengis.net/kml/2.2">
+<kml xmlns="http://www.opengis.net/kml/2.2"
+ xmlns:gx="http://www.google.com/kml/ext/2.2">
 <Document>
-  <name>gx:AnimatedUpdate example</name>
   <Style id="pushpin">
     <IconStyle id="mystyle">
       <Icon>
@@ -9,7 +9,7 @@
         <scale>1.0</scale>
       </Icon>
     </IconStyle>
-  </Style> 
+  </Style>
   <Style id="pushpin2">
     <IconStyle id="mystyle">
       <Icon>
@@ -18,19 +18,33 @@
       </Icon>
     </IconStyle>
   </Style>
+  <Folder>
+   <GroundOverlay>
+     <Icon>
+       <href><![CDATA[https://pms.claimstudios.com/kml/a.png]]></href>
+     </Icon>
+     <LatLonBox>
+       <west>55.534544795637</west>
+       <east>55.537154992117</east>
+       <south>25.0755676141046</south>
+       <north>25.0779448301046</north>
+       <rotation>-0.1556640799496235</rotation>
+     </LatLonBox>
+   </GroundOverlay>
+ </Folder>
 <Folder>
   <Placemark id="pin1">
    <name>Pin on a CH00+000</name>
    <styleUrl>#pushpin</styleUrl>
    <Point>
-     <coordinates>25.07770669071272,55.536106248392116,0</coordinates>
+     <coordinates>55.536106248392116,25.07770669071272,0</coordinates>
    </Point>
  </Placemark>
   <Placemark id="pin2">
    <name>Pin on a CH01+000</name>
    <styleUrl>#pushpin2</styleUrl>
    <Point>
-     <coordinates>25.076263638022322,55.5349502163067,0</coordinates>
+     <coordinates>55.5349502163067,25.076263638022322,0</coordinates>
    </Point>
  </Placemark>
  </Folder>
